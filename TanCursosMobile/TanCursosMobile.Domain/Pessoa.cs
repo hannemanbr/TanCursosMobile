@@ -1,5 +1,5 @@
 ﻿using System;
-namespace TanCursosMobile.Domain
+namespace TanCursos.Domain
 {
     public class Pessoa : BaseDomain
     {

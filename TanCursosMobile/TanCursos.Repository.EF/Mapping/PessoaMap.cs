@@ -1,11 +1,11 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using TanCursos.Repository.EF.Context;
-using TanCursosMobile.Domain;
+using TanCursos.Domain;
 
 namespace TanCursos.Repository.EF.Mapping
 {
-    public class PessoaMap : Context.AppContext
+    public class PessoaMap : Context.AppContexto
     {
         public PessoaMap(ModelBuilder modelBuilder)
         {

@@ -1,12 +1,12 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
-using MySQL.Data.EntityFrameworkCore;
+using TanCursos.Domain;
 
 namespace TanCursos.Repository.EF.Context
 {
-    public class AppContext : DbContext 
+    public class AppContexto : DbContext 
     {
-        public DbSet<TanCursosMobile.Domain.Pessoa> Pessoas { get; set; }
+        public DbSet<Pessoa> Pessoas { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
